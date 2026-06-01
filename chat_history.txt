@@ -1,0 +1,28 @@
+
+
+===== Chat Started: 2026-06-01 17:27:29.520184 =====
+You: hii
+Bot: Hi there, how can I help?
+You: python -u "c:\Users\KUSUM\OneDrive\Desktop\Syntecxhub_Projects\AirtifiacialIntelligence_project\AI_Chatbot_GitHub\chatbot.py"
+Bot: Hello
+You: hello 
+Bot: Hi there, how can I help?
+You: clear
+Bot: Hello
+You: exit
+Bot: Goodbye!
+
+
+===== Chat Started: 2026-06-01 17:37:08.720724 =====
+You: hello 
+Bot: Good to see you again
+You: same hre
+Bot: Hello
+You: hii
+Bot: Good to see you again
+You: thanx
+Bot: Hello
+You: clear
+Bot: Hi there, how can I help?
+You: exit
+Bot: Goodbye!
