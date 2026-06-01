@@ -1,25 +1,16 @@
 # AI Chatbot using Python, NLTK and TensorFlow
 
-## Overview
-
-This project is a console-based AI chatbot built using Python, NLTK, and TensorFlow/Keras. The chatbot uses Natural Language Processing (NLP) techniques to classify user intents and generate appropriate responses.
-
-The chatbot interacts with users through the terminal and maintains conversation history for future reference.
-
----
+A console-based AI chatbot built using Python, NLTK, and TensorFlow/Keras. The chatbot uses Natural Language Processing (NLP) techniques to classify user intents and generate appropriate responses. It also logs conversation history for future reference.
 
 ## Features
 
 * Interactive console-based chatbot
 * Intent classification using a trained neural network
-* Natural Language Processing with NLTK
-* Text preprocessing using tokenization and lemmatization
+* Natural Language Processing (NLTK)
+* Text preprocessing with tokenization and lemmatization
 * Conversation history logging
-* Pre-trained TensorFlow/Keras model
 * JSON-based intent management
 * Easy to customize and extend
-
----
 
 ## Technologies Used
 
@@ -31,92 +22,80 @@ The chatbot interacts with users through the terminal and maintains conversation
 * JSON
 * Pickle
 
----
-
 ## Project Structure
 
-```text
 AI_Chatbot_GitHub/
-│
-├── new.py
-├── intents.json
-├── chatbot_model.h5
-├── words.pkl
-├── classes.pkl
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── logs/
-    └── chat_history.txt
-```
 
----
+├── new.py
+
+├── intents.json
+
+├── chatbot_model.h5
+
+├── words.pkl
+
+├── classes.pkl
+
+├── requirements.txt
+
+├── README.md
+
+├── .gitignore
+
+└── logs/
+
+    └── chat_history.txt
 
 ## Installation
 
-1. Clone the repository
+Clone the repository:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/AI_Chatbot_GitHub.git
-```
+git clone https://github.com/Chandan-bt6/AI_Chatbot_GitHub.git
 
-2. Navigate to the project directory
+Move into the project directory:
 
-```bash
 cd AI_Chatbot_GitHub
-```
 
-3. Install dependencies
+Install dependencies:
 
-```bash
 pip install -r requirements.txt
-```
 
-4. Run the chatbot
+Run the chatbot:
 
-```bash
 python new.py
-```
-
----
 
 ## How It Works
 
 1. User enters a message.
-2. The message is tokenized and lemmatized.
-3. A Bag-of-Words representation is created.
+2. The text is tokenized and lemmatized.
+3. A Bag-of-Words vector is created.
 4. The trained neural network predicts the intent.
-5. The chatbot selects a suitable response from `intents.json`.
-6. The conversation is logged to a history file.
-
----
+5. The chatbot selects a response from intents.json.
+6. The conversation is saved in the chat history log.
 
 ## Future Improvements
 
-* Graphical User Interface (GUI)
-* Voice-based interaction
-* Context-aware conversations
-* Database integration
-* Web deployment
-* Integration with Large Language Models (LLMs)
-
----
+* GUI-based chatbot
+* Voice assistant integration
+* Database storage
+* Web deployment using Flask
+* Integration with modern LLMs
 
 ## Learning Outcomes
 
-Through this project, I learned:
+This project helped me learn:
 
 * Natural Language Processing fundamentals
 * Intent classification
-* Neural network-based text classification
 * TensorFlow/Keras model deployment
-* Project organization and GitHub workflow
-* Conversation logging and chatbot development
-
----
+* Chatbot development
+* Git and GitHub workflow
+* Conversation logging
 
 ## Author
 
-Chandan Bisht
+**Chandan Bisht**
 
 B.Tech Student | Python & AI Enthusiast
+
+GitHub: https://github.com/Chandan-bt6
