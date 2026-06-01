@@ -92,6 +92,24 @@ This project helped me learn:
 * Git and GitHub workflow
 * Conversation logging
 
+## Screenshots
+
+### Chatbot Startup
+
+![Chatbot Startup](screenshots/Bot_is_ready.png)
+
+### Conversation Demo
+
+![Conversation Demo](screenshots/Conversation_Demo.png)
+
+### Chat History Logging
+
+![Chat History](screenshots/conversation_history.png)
+
+### Bot Setting Up 
+
+![Bot Setting Up](screenshots/Setting_up_the_bot.png)
+
 ## Author
 
 **Chandan Bisht**
